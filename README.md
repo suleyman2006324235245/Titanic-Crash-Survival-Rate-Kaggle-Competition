@@ -1,26 +1,19 @@
-# Titanic Survival Prediction - Kaggle Competition
+# Titanic Survival Prediction
 
-## About my project
-I participated in the Kaggle Titanic competition and built a machine learning model to predict passenger survival.
+Kaggle Titanic competition solution.
 
-## Approach
-I cleaned and prepared the dataset by removing unnecessary columns and converting categorical variables into numerical values using one-hot encoding (dummies).
+Built a model to predict whether passengers survived based on the classic Titanic dataset.
 
-After cleaning data, I trained an XGBoost model for prediction.
+### What I did
 
-## Submission
-I used the trained model to predict survival outcomes and created a Pandas DataFrame for Kaggle submission.
+- Cleaned the data and dropped unnecessary columns
+- Converted categorical variables with one-hot encoding
+- Trained an XGBoost classifier
 
-## Result
-- Kaggle Score: 0.78229
+### Result
 
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- XGBoost
-- Jupyter Notebook
+Public score: **0.78229**
 
-## Goal
-The goal of this project was to understand a full machine learning workflow using a real Kaggle competition dataset.
+### Tools
+
+Python · Pandas · NumPy · Scikit-learn · XGBoost · Jupyter Notebook
